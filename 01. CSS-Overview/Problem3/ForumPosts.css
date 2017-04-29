@@ -1,0 +1,58 @@
+/* от условието не става ясно дали 2-рия nav трябва да е
+с бял фон само като минеш с мишката от горе, затова съм
+го направил и в двата варианта */
+body
+{
+    background-color: rgb(169, 169, 169);
+}
+body header h1
+{
+    text-align: center;
+}
+article header h1
+{
+    text-align: left;
+}
+h1
+{
+    color: rgb(250, 250, 210);
+}
+ul
+{
+    list-style: none;
+    text-align: center;
+}
+a:link
+{
+    text-decoration: none;
+}
+li:nth-child(4n) a:link
+{
+    text-decoration: underline;
+}
+li a.current
+{
+    background-color: rgb(190, 190, 190);
+}
+li a.current:hover
+{
+    background-color: rgb(211, 211, 211);
+}
+li a
+{
+    color: white;
+    font-weight: bolder;
+}
+p a
+{
+    color: black;
+}
+footer
+{
+    text-align: center;
+}
+footer p
+{
+    text-align: left;
+    font-size: 0.7em;
+}

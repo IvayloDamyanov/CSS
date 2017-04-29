@@ -1,0 +1,46 @@
+table{
+    background: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+}
+td
+{
+    padding: 3px;
+    height: 30px;
+    vertical-align: top;
+    text-align: left; 
+}
+.ticket-id
+{
+    font-size: 1.5em;
+    color: lightgray;
+}
+.left
+{
+    font-style: italic;
+    color: white;
+    width: 40%;
+}
+span.green-dot:before
+{
+    content: "🌑 ";
+    color: green;
+}
+.yellow-text
+{
+    color: lightgoldenrodyellow;
+}
+.red-text
+{
+    color: red;
+    font-weight: bold; 
+}
+.gray-text
+{
+    color: lightgray;
+}
+.orange-text
+{
+    color: darkorange;
+    font-weight: bold;
+}

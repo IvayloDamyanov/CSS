@@ -1,0 +1,19 @@
+/* фонта го свалих като файл, защото Chrome не може да го намери по име */
+@font-face {
+    font-family: Edwardian;
+    src: url(./EdwardianScriptITC.ttf);
+}
+p
+{
+    font-family: 'Consolas', serif;
+    color: #0094ff;
+}
+p:first-line
+{
+    font-weight: bold;
+}
+p:first-letter
+{
+    font-family: 'Edwardian';
+    font-size: 2.5em;
+}

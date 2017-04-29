@@ -1,0 +1,141 @@
+body
+{
+    background: lightblue;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+body div.calculator
+{
+    width: 470px;
+    height: 428px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+header
+{
+    padding: 5px;
+}
+header span
+{
+    vertical-align: middle;
+}
+header img
+{
+    height: 20px;
+    vertical-align: middle;
+}
+body div nav
+{
+    border-bottom: 1px solid lightgray;
+    background: linear-gradient(to bottom, #ffffff 0%,#ffffff 28%,#d7def0 41%,#ffffff 100%,#cfd5e5 100%);
+}
+body div nav div
+{
+    margin-left: 10px;
+    display: inline-block;
+}
+body div nav div.menu:first-letter
+{
+    text-decoration: underline;
+}
+table.main
+{
+    background: linear-gradient(to bottom, #ffffff 0%,#ffffff 6%,#dae5f2 18%,#d9e4f1 86%,#d9e4f1 86%,#dae5f2 100%);
+    border: 1px solid gray;
+    border-radius: 2px;
+    width: 100%;
+    height: 92%;
+    padding: 5px;
+}
+table.main thead td div
+{
+    float: left;
+    margin-right: 10px;
+}
+table.main tr td
+{
+    padding: 2px;
+    
+}
+table.main tr.result td
+{
+    border: 1px solid #AFBCCC;
+    border-radius: 3px;
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 2em;
+    background: linear-gradient(to bottom, #207cca -1%,#1e5799 0%,#207cca 0%,#e8f0fb 0%,#e8f0fb 24%,#ffffff 52%,#ffffff 80%,#ffffff 100%,#ffffff 100%);
+}
+table.main tr.numerics td
+{
+    border: 1px solid #AFBCCC;
+    border-radius: 2px;
+    text-align: center;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+table.main tr.numerics td pre
+{
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 0em; 
+}
+table.main tr.numerics td pre:nth-child(2n+1)
+{
+    color: gray;
+}
+table tr td.systems
+{
+    width: 20%;
+    border: 1px solid #AFBCCC;
+}
+table tr td
+{
+    width:10%;
+
+}
+table tr td button
+{
+    width: 40px;
+    height: 32px;
+}
+table tr td button#zero
+{
+    width: 84px;
+}
+table tr td button#equal
+{
+    height: 70px;
+    font-size: 20px;
+    font-style: bold;
+}
+button
+{
+    border: 1px solid #AFBCCC;
+    border-radius: 2px;
+}
+button.prim
+{
+    background: linear-gradient(to bottom, #ffffff 0%,#ffffff 42%,#dae5f2 57%,#d6e1ef 100%);
+}
+button.sec
+{
+    background: #D9E4F1;
+}
+button.big
+{
+    font-size: 16px;
+}
+button.arrow
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+button:hover
+{
+    background: linear-gradient(to bottom, #fdeddc 0%,#fdeddc 42%,#f4ee7a 57%,#f2eeab 100%);
+}

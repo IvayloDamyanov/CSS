@@ -1,0 +1,210 @@
+html
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+div.main
+{
+    background: #F1F1F1;
+    display: flex;
+    width: 80%;
+    align-items: flex-start;
+    margin-bottom: 0;
+    border: 1px solid black;
+}
+div.left
+{
+    width: 20%;
+    padding: 1%;
+    margin-bottom: 0;
+}
+div.left a
+{
+    text-decoration: none;
+}
+div.home
+{
+    display: flex;
+}
+div.home img
+{
+    width: 10%;
+    height: 10%;
+    margin-right: 2%;
+}
+div.home a
+{
+    align-self: flex-end;
+    font-weight: bold;
+    color: black;
+}
+div.left ul
+{
+    list-style: none;
+    padding-left: 0;
+    line-height: 1em;
+}
+div.left ul a
+{
+    color: #8D0200;
+    font-weight: bold;
+}
+div.left ul li a
+{
+    color: black;
+    font-weight: normal;
+}
+div.center
+{
+    width: 60%;
+    margin: 0.5%;
+    margin-bottom: 0;
+    padding: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: white;
+    border: 2px solid #A2A2A2;
+}
+div.center header
+{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+div.center div.nav_buttons
+{
+    display: flex;
+}
+div.center input.prev
+{
+    background: url(./img/prev.png) no-repeat;
+    width: 20%;
+    background-size: 10%;
+    background-position-y: center;
+    margin-bottom: 0;
+    margin-right: 1%;
+    border: 1px solid black;
+}
+div.center input.next
+{
+    background: url(./img/next.png) no-repeat;
+    width: 20%;
+    background-size: 10%;
+    background-position-y: center;
+    background-position: right;
+    margin-bottom: 0;
+    border: 1px solid black;
+}
+div.center hr
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+div.center div.graybar
+{
+    padding-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: white;
+    font-weight: bold;
+    background: #808080;
+}
+div.css_image
+{
+    display: flex;
+}
+div.css_image img
+{
+    height: 7em;
+}
+div.css_image div
+{
+    padding-left: 1%;
+    padding-bottom: 2%;
+}
+div.center p
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+div.css_image div p
+{
+    font-weight: bold;
+}
+div.center a, div.right a
+{
+    color: #8D0200;
+}
+div.right
+{
+    width: 20%;
+    margin: 0.5%;
+    margin-bottom: 0;
+    margin-left: 0;
+    background-color: #F1F1F1;
+}
+div.right div
+{
+    padding: 2%;
+    margin-bottom: 1%;
+    border: 2px solid #A2A2A2;
+    background-color: white;
+    display: flex;
+    flex-direction: column;   
+}
+div.right div.graybar
+{
+    padding-left: 1%;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background: #808080;
+    border: none;
+}
+div.right div div
+{
+    align-self: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: none;
+}
+div.right div div input#text
+{
+    width: 75%;
+    margin-right: 1%;
+}
+div.right div div input#button
+{
+    width: 15%;
+}
+div.right a
+{
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+div.right input#blue
+{
+    width: 70%;
+    line-height: 2em;
+    font-size: 1rem;
+    align-self: center;
+    color: #5DD4FF;
+    font-weight: bold;
+    background: linear-gradient(to right, #ace0fc 5%,#ace0fc 5%,#c0e6fa 6%,#c0e6fa 94%,#ace0fc 95%);
+    border: 1px solid #679BC2;
+}
+
+

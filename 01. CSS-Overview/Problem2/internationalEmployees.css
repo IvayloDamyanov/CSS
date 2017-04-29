@@ -1,0 +1,46 @@
+table
+{
+    border-style: groove;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: rgba(150, 150, 150, 0.3);
+    font-family: 'Helvetica';
+    font-size: 14px;
+    width: 40%;
+}
+td
+{
+    border-left-style: groove;
+    border-left-color: rgba(150, 150, 150, 0.3);
+    border-left-width: 2px; 
+    padding: 2px;
+    vertical-align: middle;
+}
+td.col1
+{
+    width: 30%;
+}
+td.col2
+{
+    width: 25%;
+}
+td.col4
+{
+    width: 20%;
+}
+tr:nth-child(odd)
+{
+    background-color: rgb(236, 236, 216);
+}
+tr.hat
+{
+    background: rgb(86, 185, 6);
+    border-bottom-style: groove;
+    border-bottom-color: green;
+    border-bottom-width: 2px;
+    color: white;
+}
+img
+{
+    height: 1em;
+}

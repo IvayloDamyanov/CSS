@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Windows Calculator</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./WindowsCalculator.css">
+</head>
+<body>
+    <header>
+        <img src="./icon.jpg" alt="./icon1.jpg"/><span> Calculator</span>
+    </header>
+    <div class = "calculator">
+        <nav>
+            <div class = "menu">View</div>
+            <div class = "menu">Edit</div>
+            <div class = "menu">Help</div>
+        </nav>
+        <table class = "main">
+            <tbody>
+                <tr class = "result">
+                    <td colspan = "9">8854455</td>
+                </tr>
+                <tr class = "numerics">
+                    <td colspan = "9">
+                        <p class = "binary"><pre>0000    0000    0000    0000    0000    0000    0000    0000</pre></p>
+                        <p class = "count"><pre>63                        47                              32</pre></p>
+                        <p class = "binary"><pre>0000    0000    0000    0000    0000    0000    0000    0000</pre></p>
+                        <p class = "count"><pre>31                        15                               0</pre></p>
+                    </td>
+                </tr>
+                <tr class = "buttons_row">
+                    <td class = "systems" rowspan = "3">
+                        <input type="radio"/>Hex</br>
+                        <input type="radio" checked = "checked"/>Dec</br>
+                        <input type="radio"/>Oct</br>
+                        <input type="radio"/>Bin
+                    </td>
+                    <td><button type="button" class = "sec"></button></td>
+                    <td><button type="button" class = "prim">Mod</button></td>
+                    <td><button type="button" class = "sec big">A</button></td>
+                    <td><button type="button" class = "sec">MC</button></td>
+                    <td><button type="button" class = "sec">MR</button></td>
+                    <td><button type="button" class = "sec">MS</button></td>
+                    <td><button type="button" class = "sec">M+</button></td>
+                    <td><button type="button" class = "sec">M-</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class = "prim">(</button></td>
+                    <td><button type="button" class = "prim">)</button></td>
+                    <td><button type="button" class = "sec big">B</button></td>
+                    <td><button type="button" class = "prim arrow">←</button></td>
+                    <td><button type="button" class = "prim">CE</button></td>
+                    <td><button type="button" class = "prim">C</button></td>
+                    <td><button type="button" class = "prim">±</button></td>
+                    <td><button type="button" class = "sec">√</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class = "prim">RoL</button></td>
+                    <td><button type="button" class = "prim">RoR</button></td>
+                    <td><button type="button" class = "sec big">C</button></td>
+                    <td><button type="button" class = "prim big">7</button></td>
+                    <td><button type="button" class = "prim big">8</button></td>
+                    <td><button type="button" class = "prim big">9</button></td>
+                    <td><button type="button" class = "prim">/</button></td>
+                    <td><button type="button" class = "sec">%</button></td>
+                </tr>
+                <tr>
+                    <td class = "systems" rowspan = "3">
+                        <div>
+                            <input type="radio" checked = "checked"/>Qword</br>
+                            <input type="radio"/>Dword</br>
+                            <input type="radio"/>Word</br>
+                            <input type="radio"/>Byte
+                        </div>
+                    </td>
+                    <td><button type="button" class = "prim">Or</button></td>
+                    <td><button type="button" class = "prim">Xor</button></td>
+                    <td><button type="button" class = "sec big">D</button></td>
+                    <td><button type="button" class = "prim big">4</button></td>
+                    <td><button type="button" class = "prim big">5</button></td>
+                    <td><button type="button" class = "prim big">6</button></td>
+                    <td><button type="button" class = "prim">*</button></td>
+                    <td><button type="button" class = "sec">1/x</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class = "prim">Lsh</button></td>
+                    <td><button type="button" class = "prim">Rsh</button></td>
+                    <td><button type="button" class = "sec big">E</button></td>
+                    <td><button type="button" class = "prim big">1</button></td>
+                    <td><button type="button" class = "prim big">2</button></td>
+                    <td><button type="button" class = "prim big">3</button></td>
+                    <td><button type="button" class = "prim">-</button></td>
+                    <td rowspan = "2"><button type="button" class = "prim big" id = "equal">=</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class = "prim">Not</button></td>
+                    <td><button type="button" class = "prim">And</button></td>
+                    <td><button type="button" class = "sec big">F</button></td>
+                    <td colspan = "2"><button type="button" class = "prim big" id = "zero">0</button></td>
+                    <td><button type="button" class = "sec">.</button></td>
+                    <td><button type="button" class = "prim">+</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
